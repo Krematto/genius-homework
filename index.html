@@ -8,14 +8,14 @@
   <body>
     <header>
       <nav>
-        <a href="#">
+        <a href="/index.html">
           <img src="./images/logo.svg" alt="Логотип сучасноi пеепрнi" />
         </a>
         <ul>
-          <li><a href="#">Наші традиції</a></li>
-          <li><a href="#">Шеф-кухарі</a></li>
-          <li><a href="#">Формати</a></li>
-          <li><a href="#">Контакти</a></li>
+          <li><a href="#traditions-section">Наші традиції</a></li>
+          <li><a href="#cookers-section">Шеф-кухарі</a></li>
+          <li><a href="#format-section">Формати</a></li>
+          <li><a href="#contact-section">Контакти</a></li>
         </ul>
       </nav>
       <button type="submit">Замовити дзвінок</button>
@@ -24,7 +24,7 @@
       <section>
         <h1>Сучасна пекарня</h1>
       </section>
-      <section>
+      <section id="traditions-section">
         <ul>
           <li>Великий попит на ринку</li>
           <li>Доступні за бюджетом формати</li>
@@ -40,9 +40,12 @@
           <span>5 хвилин і замовлення готове</span>. А ще у наших пекарень
           стильний дизайн та висока якість обслуговування!
         </p>
-        <img src="./images/baker-man.jpg" alt="мужик пекарь смотрит на батоны с улыбкой">
+        <img
+          src="./images/baker-man.jpg"
+          alt="мужик пекарь смотрит на батоны с улыбкой"
+        />
       </section>
-      <section>
+      <section id="cookers-section">
         <h2>Наші найкращі шеф -кухарі</h2>
         <ul>
           <li>
@@ -66,12 +69,12 @@
           </li>
         </ul>
       </section>
-      <section>
+      <section id="format-section">
         <h2>Формати</h2>
         <ul>
           <li>
             <article>
-              <h3 leng="en">Walrus</h3>
+              <h3 lang="en">Walrus</h3>
               <p>
                 Площа: до 120 м2 Меню: розширене меню Штат: 2 продавці-касири, 2
                 пекарі, 2 помічники пекаря, 2 офіціанти-різнороби Посадкові
@@ -81,7 +84,7 @@
           </li>
           <li>
             <article>
-              <h3 leng="en">Horseshoe</h3>
+              <h3 lang="en">Horseshoe</h3>
               <p>
                 Площа: до 25 м2 Меню: найпопулярніші позиції меню Штат: 2
                 продавці-касири, 2 пекарі, 1 помічник пекаря Посадкові місця:
@@ -91,7 +94,7 @@
           </li>
           <li>
             <article>
-              <h3 leng="en">Handlebar</h3>
+              <h3 lang="en">Handlebar</h3>
               <p>
                 Площа: до 15 м2 Меню: найпопулярніші позиції меню Штат: 1
                 продавець, 1 пекар, 1 помічник пекаря Посадкові місця: відсутні
@@ -100,8 +103,16 @@
           </li>
         </ul>
       </section>
-      <section>
+      <section id="contact-section">
         <h2>Приєднуйся до мережі пекарень</h2>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d635.0359233943441!2d30.48840552590843!3d50.45704884163894!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce637c006b2d%3A0xaf86385f19996ff0!2z0YPQuy4g0KHQtdGH0LXQstGL0YUg0KHRgtGA0LXQu9GM0YbQvtCyLCA1NCwg0JrQuNC10LIsIDAyMDAw!5e0!3m2!1sru!2sua!4v1764756615240!5m2!1sru!2sua"
+          width="603"
+          height="595"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
       </section>
     </main>
     <footer>
@@ -111,10 +122,10 @@
         /></a>
 
         <ul>
-          <li><a href="#">Наші традиції</a></li>
-          <li><a href="#">Шеф-кухарі</a></li>
-          <li><a href="#">Формати</a></li>
-          <li><a href="#">Контакти</a></li>
+          <li><a href="#traditions-section">Наші традиції</a></li>
+          <li><a href="#cookers-section">Шеф-кухарі</a></li>
+          <li><a href="#format-section">Формати</a></li>
+          <li><a href="#contact-section">Контакти</a></li>
         </ul>
       </nav>
       <address>
@@ -139,7 +150,7 @@
             </a>
           </li>
           <li><a href="#" target="_blank">Політика конфіденційності</a></li>
-          <p>© 2022 Дані захищені</p>
+          <p>&copy; 2022 Дані захищені</p>
         </ul>
       </address>
     </footer>
